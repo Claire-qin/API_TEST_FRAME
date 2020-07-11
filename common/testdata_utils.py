@@ -1,7 +1,9 @@
 import os
 from common.excel_untils import ExcelUtils
+from common import config  # 方法一
+from common.localconfig_utils import local_config # 方法二
 
-test_data_path = os.path.join(os.path.dirname(__file__),'..','samples/test_data/test_case.xlsx')
+test_data_path = os.path.join(os.path.dirname(__file__),'..',local_config.CASE_DATA_PATH)
 
 class TestdataUtils():
     def __init__(self,test_data_path=test_data_path):

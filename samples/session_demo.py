@@ -23,11 +23,10 @@ form_data = {
     "username": "xiaoliusir001",
     "password": "123456",
     "csrf_token": token_id,
-    "csrf_token": token_id
 }
 
 headers_info = {
-"Accept":"application/json, text/javascript, */*; q=0.01",
+    "Accept":"application/json, text/javascript, */*; q=0.01",
     "X-Requested-With":"XMLHttpRequest",
     "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36",
     "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
@@ -40,7 +39,7 @@ res02 = session.post(url = hosts+'/phpwind/index.php',
                       headers = headers_info)
 body02 = res02.content.decode('utf-8')
 login_id = re.findall('_statu=(.+?)"',body02)[0]
-# print(login_id)
+print(login_id)
 
 # 3）登录后的授权
 get_params = {

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9454ab73-e5e1-4ee4-9ec9-6d7e1c82a6a0" name="Default Changelist" comment="第7次提交：&#10;回顾和应用requests以及session操作：&#10;samples中加入requests.deo.py，session_demo.py">
-      <change afterPath="$PROJECT_DIR$/samples/day34_phpwind_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/eval_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/requests_demo_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/requests_utils.py" afterDir="false" />
+    <list default="true" id="9454ab73-e5e1-4ee4-9ec9-6d7e1c82a6a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/samples/re_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/session_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/session_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/requests_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/requests_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +14,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/requests_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="21" lean-forward="true" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="567">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="e#14#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/re_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/day34_phpwind_register.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,13 +105,14 @@
         <option value="$PROJECT_DIR$/samples/eval_demo.py" />
         <option value="$PROJECT_DIR$/samples/requests_demo_01.py" />
         <option value="$PROJECT_DIR$/samples/requests_utils.py" />
+        <option value="$PROJECT_DIR$/samples/re_demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="width" value="1428" />
-    <option name="height" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="width" value="1350" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P12_basic_API_Test_Frame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_Demos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -172,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests_utils">
+  <component name="RunManager" selected="Python.re_demo">
     <configuration name="eval_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_TEST_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="phpwind_register" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="re_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_TEST_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,7 +238,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python\Scripts\API_TEST_FRAME\samples\day34_phpwind_register.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/re_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re_demo" />
         <item itemvalue="Python.requests_utils" />
         <item itemvalue="Python.testdata_utils" />
         <item itemvalue="Python.requests_demo_01" />
         <item itemvalue="Python.eval_demo" />
-        <item itemvalue="Python.phpwind_register" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +346,10 @@
       <workItem from="1594630182704" duration="1345000" />
       <workItem from="1594778391332" duration="8555000" />
       <workItem from="1594789299658" duration="99000" />
-      <workItem from="1595060940798" duration="16977000" />
+      <workItem from="1595060940798" duration="17241000" />
+      <workItem from="1595122593886" duration="2104000" />
+      <workItem from="1595149392421" duration="7312000" />
+      <workItem from="1595210031348" duration="6627000" />
     </task>
     <task id="LOCAL-00001" summary="第1次提交：新建模块">
       <created>1594092667582</created>
@@ -367,27 +400,34 @@
       <option name="project" value="LOCAL" />
       <updated>1594560985076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第8次提交：&#10;讲解式的封装reequests&#10;samples/requests_utils.py&#10;讲解eval()方法的使用">
+      <created>1595087738518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595087738518</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91202000" />
+    <option name="totallyTimeSpent" value="107509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-4" y="0" width="1350" height="1069" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1627907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49908924" visible="true" weight="0.46030042" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49908924" visible="true" weight="0.32192513" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72040075" weight="0.23799127" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72040075" weight="0.3251073" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50091076" side_tool="true" weight="0.31441048" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32896176" />
@@ -449,7 +489,8 @@
     <MESSAGE value="第5次提交：&#10;新增了配饰文件的两种读取方式：&#10;1）common下的config.py  config_utils.py实现&#10;2）common下的local_config.py实现&#10;增加了配置文件conf/config.ini&#10;修改了testdata_utils.py把路径改为配置为文件" />
     <MESSAGE value="第6次提交：&#10;新增日志模块：common/log_utils.py&#10;samples中加入了示例&#10;conf/config.ini增加了日志相关配置&#10;.gitignore忽略某个文件或者文件夹 不通过git管理" />
     <MESSAGE value="第7次提交：&#10;回顾和应用requests以及session操作：&#10;samples中加入requests.deo.py，session_demo.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="第7次提交：&#10;回顾和应用requests以及session操作：&#10;samples中加入requests.deo.py，session_demo.py" />
+    <MESSAGE value="第8次提交：&#10;讲解式的封装reequests&#10;samples/requests_utils.py&#10;讲解eval()方法的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="第8次提交：&#10;讲解式的封装reequests&#10;samples/requests_utils.py&#10;讲解eval()方法的使用" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$config_demo.coverage" NAME="config_demo Coverage Results" MODIFIED="1594480698178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
@@ -462,13 +503,14 @@
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$config_utils.coverage" NAME="config_utils Coverage Results" MODIFIED="1594481393376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$register.coverage" NAME="register Coverage Results" MODIFIED="1594788198329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/398260536/FileRecv" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$eval_demo.coverage" NAME="eval_demo Coverage Results" MODIFIED="1595080243687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$re_demo.coverage" NAME="re_demo Coverage Results" MODIFIED="1595227014019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$demo.coverage" NAME="demo Coverage Results" MODIFIED="1594474124679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$phpwind_register.coverage" NAME="phpwind_register Coverage Results" MODIFIED="1594788671270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$log_demo.coverage" NAME="log_demo Coverage Results" MODIFIED="1594486762632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$session_demo.coverage" NAME="session_demo Coverage Results" MODIFIED="1594784412316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$testdata_utils.coverage" NAME="testdata_utils Coverage Results" MODIFIED="1595082806968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$testdata_utils.coverage" NAME="testdata_utils Coverage Results" MODIFIED="1595166671841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$config.coverage" NAME="config Coverage Results" MODIFIED="1594481481581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_utils.coverage" NAME="requests_utils Coverage Results" MODIFIED="1595087131110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_utils.coverage" NAME="requests_utils Coverage Results" MODIFIED="1595178528254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_demo.coverage" NAME="requests_demo Coverage Results" MODIFIED="1594525054714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$excel_untils.coverage" NAME="excel_untils Coverage Results" MODIFIED="1594470951787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
@@ -637,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/day34_phpwind_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/eval_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -658,16 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,11 +712,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/requests_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="21" lean-forward="true" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="567">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/day34_phpwind_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/re_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>

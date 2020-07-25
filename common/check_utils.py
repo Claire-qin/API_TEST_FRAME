@@ -34,7 +34,7 @@ class CheckUtils():
 # json的键是否存在
     def check_key(self,check_data = None):
         check_data_list = check_data.split(',')
-        print(check_data_list)
+        # print(check_data_list)
         res_list = [] # 存放每次比较的结果
         wrong_key = [] # 存放比较失败的key
         for check_data in check_data_list:
@@ -59,8 +59,8 @@ class CheckUtils():
             else:
                 res_list.append(self.fail_result)
                 wrong_items.append(check_data)
-        print(res_list)
-        print(wrong_items)
+        # print(res_list)
+        # print(wrong_items)
         if  self.fail_result in res_list:
             return self.fail_result
         else:

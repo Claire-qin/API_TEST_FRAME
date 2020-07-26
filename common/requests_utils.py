@@ -77,7 +77,7 @@ class RequestsUtils():
         try:
             request_type = step_info['请求方式']
             # 取值替换:进行下一个接口请求参数的替换（url）
-            param_variable_list = re.findall('\\${\w+}',step_info['求参数(get)'])
+            param_variable_list = re.findall('\\${\w+}',step_info['请求参数(get)'])
             if param_variable_list:
                 for param_variable in param_variable_list:
                     step_info['请求参数(get)'] = step_info['请求参数(get)'].replace(param_variable,
@@ -103,7 +103,6 @@ class RequestsUtils():
         # self.temp_variables = {}
         for step_info in step_infos:
             temp_result = self.request(step_info)
-            print(temp_result)
             if temp_result['code'] != 0:
                 break
             # print(temp_result)  # 查看临时结果的代码

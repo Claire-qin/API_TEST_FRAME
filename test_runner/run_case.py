@@ -39,8 +39,8 @@ class RunCase():
 #
 if __name__ == '__main__':
     report_path = RunCase().run()
-    # EmailUtils('<h3 align="center">自动化测试报告</h3>',report_path).send_mail()
-    EmailUtils(open(report_path,'rb').read(),report_path).send_mail()
+    EmailUtils('<h3 align="center">自动化测试报告</h3>',report_path).send_mail()
+    # EmailUtils(open(report_path,'rb').read(),report_path).send_mail()
 
 
 

@@ -3,7 +3,8 @@ import warnings
 from common.testdata_utils import TestdataUtils
 from common.requests_utils import RequestsUtils
 
-case_info = TestdataUtils().get_testcase_data_list()
+# case_info = TestdataUtils().get_testcase_data_list() # excel数据
+case_info = TestdataUtils().get_testcase_data_list_by_mysql() #mysql数据
 @paramunittest.parametrized(
     *case_info
 )

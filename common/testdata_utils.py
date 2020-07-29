@@ -42,7 +42,16 @@ class TestdataUtils():
             testcase_list.append(one_case_dict)
         return testcase_list
 
+    def get_row_num(self,case_id,case_step_name):
+        for j in range(len(self.test_data)):
+            if self.test_data[j]['测试用例编号'] == case_id and self.test_data[j]['测试用例步骤'] == case_step_name:
+                break
+        return j + 1
+
 if __name__ == '__main__':
     testdatautils = TestdataUtils()
-    for i in testdatautils.get_testcase_data_list_by_mysql():
+    for i in testdatautils.get_testcase_data_list():
         print(i)
+
+    # row = testdatautils.get_row_num('case02','step_02')
+    # print(row)

@@ -86,7 +86,7 @@ class CheckUtils():
                 self.fail_result['massage'] = '不支持%s这种判断方式'%check_type
                 return self.fail_result
         else:
-            self.fail_result['message'] = '请求的响应状态码非%s'%str(code)
+            self.fail_result['message'] = '请求的响应状态码%s'%str(code)
             return self.fail_result
 
 

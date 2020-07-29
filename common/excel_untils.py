@@ -59,3 +59,16 @@ if __name__ ==  '__main__':
     excelutils = ExcelUtils(excel_path,'Sheet1')
     for row in excelutils.get_sheet_data_by_dict():
         print(row)
+    # i = 0
+    # for row in excelutils.get_sheet_data_by_dict():
+    #     if row['测试用例编号'] == 'case01' and row['测试用例步骤'] == 'step_01':
+    #         break
+    #     else:
+    #         i = i+1
+    # print(i+1)
+    #
+    # testdatas = excelutils.get_sheet_data_by_dict()
+    # for j in range(len(testdatas)):
+    #     if testdatas[j]['测试用例编号'] == 'case01' and testdatas[j]['测试用例步骤'] == 'step_01':
+    #         break
+    # print(j+1)

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9454ab73-e5e1-4ee4-9ec9-6d7e1c82a6a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/sql_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/mysql_demo.py" afterDir="false" />
+    <list default="true" id="9454ab73-e5e1-4ee4-9ec9-6d7e1c82a6a0" name="Default Changelist" comment="第17次提交：&#10;mysql数据在框架中使用">
+      <change afterPath="$PROJECT_DIR$/samples/xlutils_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_testcases/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_testcases/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/check_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/check_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/excel_untils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/excel_untils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/requests_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/requests_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/testdata_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/testdata_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_runner/run_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_runner/run_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/data/test_case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/samples/data/test_case.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/data/test_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/importdata_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/importdata_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/test_case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/test_case.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/mysql_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_runner/run_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="314">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -40,10 +36,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/sql_utils.py">
+        <entry file="file://$PROJECT_DIR$/common/requests_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="1836">
+              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+              <folding>
+                <element signature="e#14#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="114">
+              <caret line="6" column="88" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="88" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -61,13 +60,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_testcases/api_test.py">
+        <entry file="file://$PROJECT_DIR$/conf/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="-146">
+              <caret line="6" column="14" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/importdata_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#32#79#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/check_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -105,7 +122,6 @@
         <option value="$PROJECT_DIR$/samples/read_excel.py" />
         <option value="$PROJECT_DIR$/common/excel_until.py" />
         <option value="$PROJECT_DIR$/samples/read_excel_01.py" />
-        <option value="$PROJECT_DIR$/common/excel_untils.py" />
         <option value="$PROJECT_DIR$/samples/demo.py" />
         <option value="$PROJECT_DIR$/samples/config_demo.py" />
         <option value="$PROJECT_DIR$/common/config_utils.py" />
@@ -124,13 +140,10 @@
         <option value="$PROJECT_DIR$/samples/check_demo.py" />
         <option value="$PROJECT_DIR$/samples/check_utils.py" />
         <option value="$PROJECT_DIR$/samples/requests_utils.py" />
-        <option value="$PROJECT_DIR$/samples/importdata_demo.py" />
         <option value="$PROJECT_DIR$/exception_demo.py" />
-        <option value="$PROJECT_DIR$/common/check_utils.py" />
         <option value="$PROJECT_DIR$/samples/s1_demo.py" />
         <option value="$PROJECT_DIR$/samples/unittest_demo.py" />
         <option value="$PROJECT_DIR$/samples/unitest_demo02.py" />
-        <option value="$PROJECT_DIR$/common/requests_utils.py" />
         <option value="$PROJECT_DIR$/common/HTMLTestReportCN.py" />
         <option value="$PROJECT_DIR$/samples/email_demo.py" />
         <option value="$PROJECT_DIR$/samples/email_demo_01.py" />
@@ -140,19 +153,23 @@
         <option value="$PROJECT_DIR$/common/email_utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/samples/mysql_demo.py" />
-        <option value="$PROJECT_DIR$/conf/config.ini" />
         <option value="$PROJECT_DIR$/common/sql_utils.py" />
-        <option value="$PROJECT_DIR$/common/testdata_utils.py" />
-        <option value="$PROJECT_DIR$/api_testcases/api_test.py" />
         <option value="$PROJECT_DIR$/test_runner/run_case.py" />
+        <option value="$PROJECT_DIR$/api_testcases/api_test.py" />
+        <option value="$PROJECT_DIR$/samples/xlutils_demo.py" />
+        <option value="$PROJECT_DIR$/common/excel_untils.py" />
+        <option value="$PROJECT_DIR$/common/testdata_utils.py" />
+        <option value="$PROJECT_DIR$/conf/config.ini" />
+        <option value="$PROJECT_DIR$/common/requests_utils.py" />
+        <option value="$PROJECT_DIR$/common/check_utils.py" />
+        <option value="$PROJECT_DIR$/samples/importdata_demo.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1918" />
-    <option name="y" value="2" />
-    <option name="width" value="1879" />
-    <option name="height" value="1050" />
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,29 +220,6 @@
             <path>
               <item name="API_TEST_FRAME" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_TEST_FRAME" type="462c0819:PsiDirectoryNode" />
-              <item name="test_reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_TEST_FRAME" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_TEST_FRAME" type="462c0819:PsiDirectoryNode" />
-              <item name="test_reports" type="462c0819:PsiDirectoryNode" />
-              <item name="P1P2接口自动化测试报告V1.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_TEST_FRAME" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_TEST_FRAME" type="462c0819:PsiDirectoryNode" />
-              <item name="test_reports" type="462c0819:PsiDirectoryNode" />
-              <item name="P1P2接口自动化测试报告V1.5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_TEST_FRAME" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_TEST_FRAME" type="462c0819:PsiDirectoryNode" />
-              <item name="test_reports" type="462c0819:PsiDirectoryNode" />
-              <item name="P1P2接口自动化测试报告V1.7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_TEST_FRAME" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_TEST_FRAME" type="462c0819:PsiDirectoryNode" />
               <item name="test_runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,27 +235,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P1_API_Test_Line_Frame" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python\Scripts\API_TEST_FRAME" />
-      <recent name="E:\python\Scripts\API_TEST_FRAME\samples\data" />
-      <recent name="E:\python\Scripts\API_TEST_FRAME\samples" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python\Scripts\API_TEST_FRAME\samples" />
       <recent name="E:\python\Scripts\API_TEST_FRAME\common" />
       <recent name="E:\python\Scripts\API_TEST_FRAME\samples\test_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\Scripts\API_TEST_FRAME\samples\data" />
+      <recent name="E:\python\Scripts\API_TEST_FRAME" />
+      <recent name="E:\python\Scripts\API_TEST_FRAME\samples" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +270,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run_case">
-    <configuration name="email_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel_untils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_TEST_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +283,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/email_utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/excel_untils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="importdata_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_TEST_FRAME" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +305,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/mysql_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/importdata_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="API_TEST_FRAME" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/read_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,28 +350,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_runner/run_case.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sql_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_TEST_FRAME" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sql_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,10 +383,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_case" />
+        <item itemvalue="Python.importdata_demo" />
         <item itemvalue="Python.testdata_utils" />
-        <item itemvalue="Python.mysql_demo" />
-        <item itemvalue="Python.sql_utils" />
-        <item itemvalue="Python.email_utils" />
+        <item itemvalue="Python.excel_untils" />
+        <item itemvalue="Python.read_excel" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +422,9 @@
       <workItem from="1595645536700" duration="14106000" />
       <workItem from="1595743369846" duration="1380000" />
       <workItem from="1595746430703" duration="25787000" />
-      <workItem from="1595859095759" duration="10103000" />
+      <workItem from="1595859095759" duration="12762000" />
+      <workItem from="1595913760844" duration="4982000" />
+      <workItem from="1596002200978" duration="6647000" />
     </task>
     <task id="LOCAL-00001" summary="第1次提交：新建模块">
       <created>1594092667582</created>
@@ -542,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595866406117</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="第17次提交：&#10;mysql数据在框架中使用">
+      <created>1595908897981</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595908897981</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -552,9 +555,12 @@
     <history-entry file="Unittests_in_api_test_py - 2020.07.26 at 16h 05m 36s.xml">
       <configuration name="Unittests in api_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_api_test_APITest_test_api_common_function - 2020.07.28 at 12h 06m 10s.xml">
+      <configuration name="Unittests for api_test.APITest.test_api_common_function" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214396000" />
+    <option name="totallyTimeSpent" value="228684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,15 +572,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1918" y="2" width="1503" height="840" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1089" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18200693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14850427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49908924" visible="true" weight="0.33050847" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2881356" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49908924" visible="true" weight="0.47434554" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3952514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33333334" />
@@ -650,7 +657,8 @@
     <MESSAGE value="第13次提交：&#10;api_testcases/api_test.py 编辑测试用例&#10;common/testdata_utils.py 把case_name改为case_id" />
     <MESSAGE value="第14次提交：&#10;common/HTMLTestReportCN.py 网页版报告&#10;common/email_utils.py 邮件功能封装" />
     <MESSAGE value="第15次提交：&#10;增加忽略报告提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第15次提交：&#10;增加忽略报告提交" />
+    <MESSAGE value="第17次提交：&#10;mysql数据在框架中使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="第17次提交：&#10;mysql数据在框架中使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,7 +685,7 @@
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_utils__1_.coverage" NAME="requests_utils (1) Coverage Results" MODIFIED="1595605838684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$unitest_demo02.coverage" NAME="unitest_demo02 Coverage Results" MODIFIED="1595747762255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$log_utils.coverage" NAME="log_utils Coverage Results" MODIFIED="1594518367398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1594438754707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1595917232651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$email_utils.coverage" NAME="email_utils Coverage Results" MODIFIED="1595784359787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$register.coverage" NAME="register Coverage Results" MODIFIED="1594788198329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/398260536/FileRecv" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$eval_demo.coverage" NAME="eval_demo Coverage Results" MODIFIED="1595080243687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
@@ -685,14 +693,15 @@
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$demo.coverage" NAME="demo Coverage Results" MODIFIED="1594474124679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$phpwind_register.coverage" NAME="phpwind_register Coverage Results" MODIFIED="1594788671270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$log_demo.coverage" NAME="log_demo Coverage Results" MODIFIED="1594486762632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$Unittests_for_api_test_APITest_test_api_common_function.coverage" NAME="Unittests for api_test.APITest.test_api_common_function Coverage Results" MODIFIED="1595909169363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_testcases" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$config.coverage" NAME="config Coverage Results" MODIFIED="1594481481581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_utils.coverage" NAME="requests_utils Coverage Results" MODIFIED="1595265936832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_demo.coverage" NAME="requests_demo Coverage Results" MODIFIED="1594525054714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$sql_utils.coverage" NAME="sql_utils Coverage Results" MODIFIED="1595905488599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$importdata_demo.coverage" NAME="importdata_demo Coverage Results" MODIFIED="1595688424864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$importdata_demo.coverage" NAME="importdata_demo Coverage Results" MODIFIED="1596012933080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1595262021954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$api_test.coverage" NAME="api_test Coverage Results" MODIFIED="1595753571050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_testcases" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$mysql_demo.coverage" NAME="mysql_demo Coverage Results" MODIFIED="1595905507962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$api_test.coverage" NAME="api_test Coverage Results" MODIFIED="1595909180544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_testcases" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$email_demo_02.coverage" NAME="email_demo_02 Coverage Results" MODIFIED="1595781174535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$replace_demo.coverage" NAME="replace_demo Coverage Results" MODIFIED="1595249069194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$requests_demo_01.coverage" NAME="requests_demo_01 Coverage Results" MODIFIED="1595082441381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
@@ -701,14 +710,15 @@
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$config_utils.coverage" NAME="config_utils Coverage Results" MODIFIED="1594481393376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$session_demo.coverage" NAME="session_demo Coverage Results" MODIFIED="1594784412316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$Unittests_in_api_test_py.coverage" NAME="Unittests in api_test.py Coverage Results" MODIFIED="1595750735593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_testcases" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$testdata_utils.coverage" NAME="testdata_utils Coverage Results" MODIFIED="1595908263000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$testdata_utils.coverage" NAME="testdata_utils Coverage Results" MODIFIED="1596010002484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$Unittests_for_api_test_APITest_test_demo.coverage" NAME="Unittests for api_test.APITest.test_demo Coverage Results" MODIFIED="1595750632900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_testcases" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$email_demo_01.coverage" NAME="email_demo_01 Coverage Results" MODIFIED="1595777242642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1595908455278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_runner" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1596012956370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_runner" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$s1_demo.coverage" NAME="s1_demo Coverage Results" MODIFIED="1595438974585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$unittest_demo.coverage" NAME="unittest_demo Coverage Results" MODIFIED="1595690658415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
-    <SUITE FILE_PATH="coverage/API_TEST_FRAME$excel_untils.coverage" NAME="excel_untils Coverage Results" MODIFIED="1594470951787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/API_TEST_FRAME$check_utils__1_.coverage" NAME="check_utils (1) Coverage Results" MODIFIED="1595605168879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$xlutils_demo.coverage" NAME="xlutils_demo Coverage Results" MODIFIED="1595915467577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samples" />
+    <SUITE FILE_PATH="coverage/API_TEST_FRAME$excel_untils.coverage" NAME="excel_untils Coverage Results" MODIFIED="1596009152996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -720,61 +730,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="677" column="39" selection-start-line="677" selection-start-column="30" selection-end-line="677" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/config_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#12#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="1367" column="22" selection-start-line="1367" selection-start-column="19" selection-end-line="1367" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/excel_untils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/read_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,16 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/398260536/FileRecv/register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="10" selection-start-line="10" selection-end-line="27" selection-end-column="89" />
-          <folding>
-            <element signature="e#95#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/398260536/FileRecv/register.py" />
     <entry file="file://$PROJECT_DIR$/samples/session_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-455">
@@ -870,16 +820,6 @@
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#1032#1041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/day34_phpwind_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -960,23 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/check_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/importdata_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#32#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/unitest_demo02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -987,24 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/requests_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="345" selection-start-line="345" selection-end-line="345" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/unittest_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1063,27 +972,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/email_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1101,10 +993,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
+    <entry file="file://$PROJECT_DIR$/samples/read_excel_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/xlutils_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/excel_untils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="54" column="27" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -1113,20 +1041,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_testcases/api_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="50" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_runner/run_case.py">
+    <entry file="file://D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/smtplib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="163">
+          <caret line="720" selection-start-line="720" selection-end-line="720" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/email_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/unittest_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/day34_phpwind_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/check_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="6" column="14" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/requests_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testdata_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="88" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_runner/run_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/importdata_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#32#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
